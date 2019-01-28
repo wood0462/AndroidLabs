@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/lay1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="false"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"
+        android:text="@string/title"
+        android:textAlignment="viewStart"
+        android:textSize="30sp" />
+
+
+    <Button
+        android:id="@+id/lay2"
+        android:layout_width="190dp"
+        android:layout_height="65dp"
+        android:layout_below="@id/lay1"
+        android:layout_alignParentLeft="true"
+        android:scaleType="fitCenter"
+        android:text="@string/ButtonText"
+
+        />
+
+        <ImageButton
+
+            android:id="@+id/lay3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/des"
+            android:layout_below="@id/lay1"
+            android:layout_alignParentTop="false"
+            android:layout_alignParentRight="true"
+            android:layout_alignRight="@id/lay2"
+            android:src="@drawable/flag"/>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/lay4"
+            android:layout_below="@id/lay3"
+            android:layout_alignParentLeft="true"
+            android:text="@string/checkbox"
+
+            />
+
+    <Switch
+        android:id="@+id/lay5"
+        android:layout_width="205dp"
+
+        android:layout_height="17dp"
+        android:layout_below="@id/lay3"
+        android:layout_alignParentRight="true"
+        android:text="@string/swch"
+        android:scaleType="fitCenter"
+        android:textAlignment="textStart" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:id="@+id/lay6"
+                android:hint="@string/text"
+                android:layout_below="@id/lay5"
+
+                />
+
+</RelativeLayout>

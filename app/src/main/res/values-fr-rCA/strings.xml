@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Lab 1</string>
+    <string name="app_name">Lab 2</string>
     <string name="hello_message">bonjour!</string>
-    <string name="ButtonText">i\'m a button</string>
+    <string name="ButtonText">bouton</string>
+    <string name="title">Aquí están mis widgets</string>
+    <string name="checkbox">regarde ça!</string>
+    <string name="swch">allumer / éteindre</string>
+    <string name="des">drapeau français</string>
+    <string name="text">Type in your answer here</string>
 
 
 </resources>

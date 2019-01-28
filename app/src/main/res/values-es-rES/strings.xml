@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <resources>
+        <string name="app_name">Lab 2</string>
+        <string name="hello_message">Hola!</string>
+        <string name="ButtonText">botón</string>
+        <string name="title">Voici mes widgets: </string>
+        <string name="checkbox">mira esto!</string>
+        <string name="swch">encender / apagar</string>
+        <string name="des" >bandera española</string>
+        <string name="text">Escribe tu respuesta aquí</string>
+    </resources>
