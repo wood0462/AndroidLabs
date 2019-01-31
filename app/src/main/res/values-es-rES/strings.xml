@@ -1,12 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 
     <resources>
-        <string name="app_name">Lab 2</string>
+        <string name="app_name">Lab 3</string>
         <string name="hello_message">Hola!</string>
-        <string name="ButtonText">botón</string>
+        <string name="ButtonText">INICIAR SESION</string>
         <string name="title">Voici mes widgets: </string>
         <string name="checkbox">mira esto!</string>
         <string name="swch">encender / apagar</string>
         <string name="des" >bandera española</string>
         <string name="text">Escribe tu respuesta aquí</string>
+
+    //********************Lab 3***************************//
+    <string name="email">Entrez votre adresse email:</string>
+    <string name="mess">Escriba el correo electrónico aquí</string>
+    <string name="pass">Escribe tu contraseña:</string>
+    <string name="profile">Your profile</string>
+    <string name="name">Your name:</string>
+    <string name="hname">Enter your name</string>
+    <string name="yemail">Your email:</string>
+    <string name="eemail">Enter your email</string>
+    <string name="pic">your picture:</string>
+    <string name="click">Click the button above to take a picture</string>
     </resources>
