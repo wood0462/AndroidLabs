@@ -32,12 +32,12 @@ public class ProfileActivity extends AppCompatActivity {
 
         });
 
-        Log.e(ACTIVITY_NAME, "onCreate: Error");
+        Log.e(ACTIVITY_NAME, "onCreate:");
     }
     @Override
     protected void onPause(){
         super.onPause();
-        Log.e(ACTIVITY_NAME, "onPause: Error");
+        Log.e(ACTIVITY_NAME, "onPause:");
     }
 
 
@@ -56,7 +56,7 @@ public class ProfileActivity extends AppCompatActivity {
             Bundle extras = data.getExtras();
             Bitmap imageBitmap = (Bitmap) extras.get("data");
             mImageButton.setImageBitmap(imageBitmap);
-            Log.e(ACTIVITY_NAME, "onActivityResult: Error");
+            Log.e(ACTIVITY_NAME, "onActivityResult:");
 
 
 
@@ -65,11 +65,21 @@ public class ProfileActivity extends AppCompatActivity {
 
     protected void OnDestroy(){
         super.onDestroy();
-
+        Log.e(ACTIVITY_NAME, "OnDestroy:");
 
 
     }
 
+    protected void onResume(){
+        super.onResume();
+        Log.e(ACTIVITY_NAME, "onResume:");
+    }
+
+    protected void onStop(){
+        super.onStop();
+        Log.e(ACTIVITY_NAME, "onStop:");
+
+    }
 
 
 }
