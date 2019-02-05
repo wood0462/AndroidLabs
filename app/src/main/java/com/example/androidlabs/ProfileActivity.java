@@ -17,7 +17,6 @@ public class ProfileActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        Log.e(ACTIVITY_NAME, "onCreate: Error");
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_profile);
         Intent in = getIntent();
@@ -62,19 +61,20 @@ public class ProfileActivity extends AppCompatActivity {
 
         }
     }
-
-    protected void OnDestroy(){
+    @Override
+    protected void onDestroy(){
         super.onDestroy();
         Log.e(ACTIVITY_NAME, "OnDestroy:");
 
 
     }
-
+    @Override
     protected void onResume(){
         super.onResume();
         Log.e(ACTIVITY_NAME, "onResume:");
     }
 
+    @Override
     protected void onStop(){
         super.onStop();
         Log.e(ACTIVITY_NAME, "onStop:");
