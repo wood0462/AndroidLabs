@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Lab 3</string>
+    <string name="app_name">Lab 4</string>
     <string name="hello_message">bonjour!</string>
-    <string name="ButtonText">S\'IDENTIFIER</string>
+    <string name="ButtonText">envoyer</string>
     <string name="title">Aquí están mis widgets</string>
     <string name="checkbox">regarde ça!</string>
     <string name="swch">allumer / éteindre</string>
@@ -21,6 +21,13 @@
     <string name="eemail">Enter your email</string>
     <string name="pic">your picture:</string>
     <string name="click">Click the button above to take a picture</string>
+
+    //********************Lab 4***************************//
+
+    <string name="chat">Aller discuter</string>
+    <string name="Type">Écrivez ici</string>
+    <string name="br">Recevoir</string>
+    <string name="log">envoyer</string>
 
 
 </resources>

@@ -15,6 +15,7 @@ public class ProfileActivity extends AppCompatActivity {
     public static final String ACTIVITY_NAME = "PROFILE_ACTIVITY";
     ImageButton mImageButton;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -28,10 +29,17 @@ public class ProfileActivity extends AppCompatActivity {
         mImageButton = findViewById(R.id.picture);
         findViewById(R.id.picture).setOnClickListener( b -> {
             dispatchTakePictureIntent();
-
         });
 
         Log.e(ACTIVITY_NAME, "onCreate:");
+
+
+        findViewById(R.id.butt2).setOnClickListener(b -> {
+
+            Intent next = new Intent(this, ChatRoomActivity.class);
+            startActivity(next);
+        });
+
     }
     @Override
     protected void onPause(){

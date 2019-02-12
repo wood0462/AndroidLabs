@@ -8,6 +8,8 @@ import android.os.Bundle;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
+import android.widget.ListAdapter;
+import android.widget.ListView;
 
 public class MainActivity extends AppCompatActivity {
     SharedPreferences sp;
@@ -29,10 +31,7 @@ public class MainActivity extends AppCompatActivity {
             Intent in = new Intent(this, ProfileActivity.class);
             startActivity(in.putExtra("email", type.getText().toString()));
 
-
-
         });
-
 
     }
 

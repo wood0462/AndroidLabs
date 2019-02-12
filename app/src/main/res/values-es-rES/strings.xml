@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 
     <resources>
-        <string name="app_name">Lab 3</string>
+        <string name="app_name">Lab 4</string>
         <string name="hello_message">Hola!</string>
-        <string name="ButtonText">INICIAR SESION</string>
+        <string name="ButtonText">Enviar</string>
         <string name="title">Voici mes widgets: </string>
         <string name="checkbox">mira esto!</string>
         <string name="swch">encender / apagar</string>
@@ -21,4 +21,11 @@
     <string name="eemail">Enter your email</string>
     <string name="pic">your picture:</string>
     <string name="click">Click the button above to take a picture</string>
+
+    //********************Lab 4***************************//
+
+    <string name="chat">Ir al chat</string>
+    <string name="Type">Escriba aquí</string>
+    <string name="br">recibir</string>
+    <string name="log">Enviar</string>
     </resources>
