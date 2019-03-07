@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
     <resources>
-        <string name="app_name">Lab 4</string>
+        <string name="app_name">Lab 6</string>
         <string name="hello_message">Hola!</string>
         <string name="ButtonText">Enviar</string>
         <string name="title">Voici mes widgets: </string>
