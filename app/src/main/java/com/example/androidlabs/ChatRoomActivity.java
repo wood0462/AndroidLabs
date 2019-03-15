@@ -132,7 +132,7 @@ public class ChatRoomActivity extends AppCompatActivity {
             Log.i("Results in cursor", "Cursor Results: " + c.getCount());
 
 
-        c.moveToFirst();
+       c.moveToFirst();
        while (!c.isAfterLast()) {
             String sText = c.getString(c.getColumnIndex(MyOpener.COL_TEXT));
             String sSent = c.getString(c.getColumnIndex(MyOpener.COL_SENT));
@@ -149,8 +149,8 @@ public class ChatRoomActivity extends AppCompatActivity {
     }
 
     @Override
-    protected void onPause() {
-        super.onPause();
-    }
+protected void onPause() {
+    super.onPause();
+}
 
 }

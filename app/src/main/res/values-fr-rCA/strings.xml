@@ -30,4 +30,13 @@
     <string name="log">envoyer</string>
 
 
+    //********************Lab 6***************************//
+
+    <string name="toolbut">Aller à la page de la barre d\'outils</string>
+    <string name="turtle">tortue</string>
+    <string name="alien">extraterrestre</string>
+    <string name="comet">comète</string>
+    <string name="overflow">Click</string>
+    <string name="message">Tapez votre nouveau message?</string>
+    <string name="type">Type ici</string>
 </resources>

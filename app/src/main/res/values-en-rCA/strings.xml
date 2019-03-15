@@ -30,5 +30,13 @@
     <string name="br">Receive</string>
     <string name="log">send</string>
 
+    //********************Lab 6***************************//
 
+    <string name="toolbut">Go to Toolbar Page</string>
+    <string name="turtle">turtle</string>
+    <string name="alien">alien</string>
+    <string name="comet">comet</string>
+    <string name="overflow">Click</string>
+    <string name="message">Type your new message?</string>
+    <string name="type">Type Here</string>
 </resources>

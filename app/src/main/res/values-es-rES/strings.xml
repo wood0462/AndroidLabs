@@ -28,4 +28,19 @@
     <string name="Type">Escriba aquí</string>
     <string name="br">recibir</string>
     <string name="log">Enviar</string>
-    </resources>
+
+
+
+    //********************Lab 6***************************//
+
+    <string name="toolbut">Ir a la página de la barra de herramientas</string>
+    <string name="turtle">Tortuga</string>
+    <string name="alien">extraterrestre</string>
+    <string name="comet">cometa</string>
+    <string name="overflow">hacer clic</string>
+    <string name="message">Escriba su nuevo mensaje?</string>
+    <string name="type">Tipo aquí</string>
+
+
+</resources>
+

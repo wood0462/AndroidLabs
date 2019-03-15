@@ -40,6 +40,19 @@ public class ProfileActivity extends AppCompatActivity {
             startActivity(next);
         });
 
+
+
+        findViewById(R.id.butt3).setOnClickListener(b -> {
+
+
+            Intent tool = new Intent(this, TestToolBar.class);
+            startActivity(tool);
+
+
+        });
+
+
+
     }
     @Override
     protected void onPause(){
